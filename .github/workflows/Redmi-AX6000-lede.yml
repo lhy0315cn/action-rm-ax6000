@@ -19,6 +19,9 @@ on:
         default: 'false'
   #schedule:
     # - cron: "0 0 ? * THU"
+    
+permissions:
+  contents: write
 
 env:
   REPO_URL: https://github.com/lhy0315cn/lede
