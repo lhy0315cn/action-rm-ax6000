@@ -142,7 +142,7 @@ jobs:
         echo "release_tag=${{ env.FILE_DATE }}" >> $GITHUB_OUTPUT
         touch release.txt
         echo "由衷感谢所有为openwrt无私奉献的大佬们" >> release.txt
-        echo "passwall zerotier smartdns ddns openclash softethervpn" >> release.txt
+        echo "passwall zerotier smartdns ddns openclash softethervpn wireguard" >> release.txt
         echo "192.168.2.1" >> release.txt
         echo "📥 固件下载" >> release.txt
         echo "status=success" >> $GITHUB_OUTPUT
